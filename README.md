@@ -10,12 +10,23 @@ Management and automation of advertising banners.
 * Easy to use remotely from any site.
 
 # Usage Example
+```javascript
+https://metin2.click/ads/ads.php?banner=before_captcha
 ```
+
+# Status Example
+```javascript
 https://metin2.click/ads/ads.php?banner=before_captcha
 ```
 
 # Using Banners Remotely
-Added this script on your page:
+
+Replace in ads.php https://download.metin2.click with your remote url. 
+```php
+header("Access-Control-Allow-Origin: https://download.metin2.click");
+```
+
+Added this script on your remote page:
 ```html
 <script>
 	function LoadContent(url, elementoId) {
@@ -32,7 +43,7 @@ Added this script on your page:
 </script>
 ```
 
-Then you can load the banners like this:
+Then you can load the banners in your remote page in this way:
 ```html
 <div id="before_captcha"></div>
 <div id="after_captcha"></div>
