@@ -14,11 +14,6 @@ Management and automation of advertising banners.
 https://metin2.click/ads/ads.php?banner=before_captcha
 ```
 
-# Status Example
-```javascript
-https://metin2.click/ads/ads.php?banner=before_captcha
-```
-
 # Using Banners Remotely
 
 Replace in ads.php https://download.metin2.click with your remote url. 
