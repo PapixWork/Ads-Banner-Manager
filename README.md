@@ -10,7 +10,7 @@ Management and automation of advertising banners.
 * Easy to use remotely from any site.
 
 # Usage Example
-```javascript
+```
 https://metin2.click/ads/ads.php?banner=before_captcha
 ```
 
